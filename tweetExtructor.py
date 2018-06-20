@@ -1,9 +1,7 @@
 from requests_oauthlib import OAuth1Session
 import json
-import datetime, time, sys
 import itertools
 import pickle
-from tqdm import tqdm
 from time import sleep
 CK = 'xxx' # Consumer Key
 CS = 'xxx' # Consumer Secret
