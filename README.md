@@ -5,6 +5,7 @@ http://bigdata.naist.jp/~ysuzuki/data/twitter/
 
 twitterAPIを用いるため，適当なアプリをtwitter appに登録し，
 Consumer Key, Consumer Secret, Access Token, Accesss Token Secertを取得してください．
+https://apps.twitter.com/
 取得したキーはtweetExtructor.py内に書き込んでください．  
 
 tweetExtructor.pyと同じ場所にcsvファイルをおいて，以下を実行してください．  
