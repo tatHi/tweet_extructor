@@ -3,6 +3,13 @@ import json
 import itertools
 import pickle
 from time import sleep
+
+import argparse
+parser = argparse.ArgumentParser()
+parser.add_argument('-cp','--csvPath',type=str,default='tweets_open.csv',
+                    help='path to tweet_open.csv')
+args = parser.parse_args()
+
 CK = 'xxx' # Consumer Key
 CS = 'xxx' # Consumer Secret
 AT = 'xxx' # Access Token
@@ -25,7 +32,7 @@ def getTweets(tweetIds):
     return data
 
 def extruct():
-    anno = [list(map(int, line.strip().split(','))) for line in open('tweets_open.csv')]
+    anno = [list(map(int, line.strip().split(','))) for line in open(args.csvPath)]
     alldata = []
 
     for i,batch in enumerate(itertools.zip_longest(*[iter(anno)]*100)):
