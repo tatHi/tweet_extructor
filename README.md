@@ -4,7 +4,10 @@ Twitter日本語評判分析データセットに含まれるツイートデー�
 
 ## 使い方
 ### データセットCSVのダウンロード
-http://bigdata.naist.jp/~ysuzuki/data/twitter/  
+~~http://bigdata.naist.jp/~ysuzuki/data/twitter/~~
+
+https://www.db.info.gifu-u.ac.jp/sentiment_analysis/
+
 上記サイトにて配布されているtweets_open.csvファイルをダウンロード．
 
 ### TwitterAPPの登録
